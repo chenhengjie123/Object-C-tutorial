@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		07086CEB1C0F1C3F00D605E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07086CEA1C0F1C3F00D605E6 /* main.m */; };
 		07086CF21C0F1C6100D605E6 /* helloworld.m in Sources */ = {isa = PBXBuildFile; fileRef = 07086CF11C0F1C6100D605E6 /* helloworld.m */; };
+		0783D9881C11B86C00E1D80F /* Declaration.m in Sources */ = {isa = PBXBuildFile; fileRef = 0783D9871C11B86C00E1D80F /* Declaration.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		07086CE71C0F1C3F00D605E6 /* Object-C tutorial */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Object-C tutorial"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07086CEA1C0F1C3F00D605E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		07086CF11C0F1C6100D605E6 /* helloworld.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = helloworld.m; sourceTree = "<group>"; };
+		0783D9871C11B86C00E1D80F /* Declaration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Declaration.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				07086CEA1C0F1C3F00D605E6 /* main.m */,
+				0783D9871C11B86C00E1D80F /* Declaration.m */,
 				07086CF11C0F1C6100D605E6 /* helloworld.m */,
 			);
 			path = "Object-C tutorial";
@@ -121,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0783D9881C11B86C00E1D80F /* Declaration.m in Sources */,
 				07086CEB1C0F1C3F00D605E6 /* main.m in Sources */,
 				07086CF21C0F1C6100D605E6 /* helloworld.m in Sources */,
 			);
@@ -241,6 +245,7 @@
 				07086CF01C0F1C3F00D605E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
